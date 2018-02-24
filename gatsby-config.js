@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
         fonts: [
           `roboto\:400,700`
@@ -13,12 +13,13 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/markdown`,
         name: "markdown",
       },
     },
-    `gatsby-transformer-remark`,
+    'gatsby-transformer-remark',
+    'gatsby-plugin-glamorous'
   ],
 };
