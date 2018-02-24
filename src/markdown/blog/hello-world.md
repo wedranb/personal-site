@@ -1,6 +1,6 @@
 ---
 path: "/blog/hello-world"
-date: "2017-11-07"
+date: "2017-02-24"
 title: "Hello World"
 type: "featured-post"
 ---

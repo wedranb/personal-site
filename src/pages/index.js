@@ -10,7 +10,7 @@ import Shorcuts from '../components/Shorcuts';
 import {
   Container,
   IntroContainer
-} from './index.styles';
+} from '../styles/index.styles';
 
 const IndexPage = ({ data }) => (
   <Container>
