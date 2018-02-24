@@ -1,12 +1,12 @@
-import glamorous from 'glamorous';
+import styled from 'styled-components';
 
-const Container = glamorous.div({});
+const Container = styled.div``;
 
-const IntroContainer = glamorous.div({
-  maxWidth: 590,
-  marginTop: 50,
-  marginBottom: 100
-});
+const IntroContainer = styled.div`
+  max-width: 590px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+`
 
 export default {
   Container,

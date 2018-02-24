@@ -1,22 +1,20 @@
-import glamorous from 'glamorous';
+import styled from 'styled-components';
 
-const Container = glamorous.div({});
+const Container = styled.div``
 
-const Name = glamorous.p({
-    fontSize: 18,
-    margin: 0,
-    marginBottom: 5
-},  ({ theme }) => ({
-  color: theme.main.blackColor
-}));
+const Name = styled.p`
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 5px;
+    color: ${props => props.theme.main.blackColor};
+`;
 
-const Email = glamorous.a({
-    fontSize: 14,
-    color: '#9B9B9B',
-    textDecoration: 'none'
-},  ({ theme }) => ({
-  color: theme.main.grayColor
-}));
+const Email = styled.a`
+    font-size: 14px;
+    color: #9B9B9B;
+    text-decoration: none;
+    color: ${props => props.theme.main.grayColor};
+`;
 
 export default {
     Container,

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
-import { ThemeProvider } from 'glamorous';
+import { ThemeProvider } from 'styled-components';
 
 // Import components
 import Header from '../components/Header';

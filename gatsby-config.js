@@ -3,6 +3,7 @@ module.exports = {
     title: 'Vedran Blazenka - JavaScript Developer',
   },
   plugins: [
+    'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-google-fonts',
@@ -19,7 +20,6 @@ module.exports = {
         name: "markdown",
       },
     },
-    'gatsby-transformer-remark',
-    'gatsby-plugin-glamorous'
+    'gatsby-transformer-remark'
   ],
 };

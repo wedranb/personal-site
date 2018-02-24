@@ -1,10 +1,10 @@
-import glamorous from 'glamorous';
+import styled from 'styled-components';
 
-const Container = glamorous.div({});
+const Container = styled.div``;
 
-const SectionContainer = glamorous.div({
-    marginBottom: 86
-})
+const SectionContainer = styled.div`
+    margin-bottom: 86px;
+`;
 
 
 export default {

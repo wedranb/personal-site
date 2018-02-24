@@ -1,12 +1,11 @@
-import glamorous from 'glamorous';
+import styled from 'styled-components';
 
-const Container = glamorous.h1({
-  fontSize: 38,
-  lineHeight: '48px',
-  fontWeight: '700'
-},  ({ theme }) => ({
-  color: theme.main.blackColor
-}));
+const Container = styled.h1`
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  color: ${props => props.theme.main.blackColor};
+`
 
 export default {
   Container
