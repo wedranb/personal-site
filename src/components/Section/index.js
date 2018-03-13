@@ -6,16 +6,19 @@ import {
   Title,
   List,
   Item,
+  GLink,
   Link
 } from './styles';
 
-const SectionItem = ({ title }) => (
-  <Item>
-    <Link>
-      {title}
-    </Link>
-  </Item>
-)
+const SectionItem = ({ title, path, type }) => {
+  const link = type !== "opensource" ? <GLink to={path}> {title} </GLink> : <Link href={path} target="_blank">{title} </Link>;
+
+  return (
+    <Item>
+      {link}
+    </Item>
+  );
+}
 
 const renderItem = (item) => <SectionItem {...item} />
 

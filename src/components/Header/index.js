@@ -6,8 +6,6 @@ import Contact from '../Contact';
 
 const Header = () => (
   <div
-    style={{
-    }}
   >
     <div
       style={{

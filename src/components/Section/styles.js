@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import GatsbyLink from "gatsby-link"
 
 const Container = styled.div``;
 
@@ -26,17 +27,27 @@ const Item = styled.li`
   }
 `
 
-const Link = styled.a`
+const LinkBase = css`
   font-size: 24px;
   font-weight: 700;
   transition: color 0.1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  text-decoration: none;
   color: ${props => props.theme.main.blackColor};
-`
+`;
+
+const GLink = styled(GatsbyLink)`
+  ${LinkBase}
+`;
+
+const Link = styled.a`
+  ${LinkBase}
+`;
 
 export default {
   Container,
   Title,
   List,
   Item,
+  GLink,
   Link
 };

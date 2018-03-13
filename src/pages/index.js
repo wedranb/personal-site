@@ -36,6 +36,7 @@ query IndexPageQuery {
         frontmatter {
           date(formatString: "DD.MM.YYYY.")
           title,
+          path,
           type
         }
       }
