@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   width: 100%;
-  max-width: 760px;
+  max-width: 690px;
 `;
 
 const Content = styled.section`
@@ -17,9 +17,14 @@ const Content = styled.section`
   }
 
   p {
-    font-size: 20px;
-    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.7;
     color: #2E2E2E;
+  }
+
+  a {
+    color: ${ props => props.theme.main.blogLinkColor };
+    font-weight: 500;
   }
 `
 
