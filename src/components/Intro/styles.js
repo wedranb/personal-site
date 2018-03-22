@@ -1,12 +1,24 @@
 import styled from 'styled-components';
 
-const Container = styled.h1`
-  font-size: 38px;
-  line-height: 48px;
-  font-weight: 700;
+const Container = styled.div``
+
+const Title = styled.h1`
+  margin-bottom: 24px;
+  font-size: 72px;
+  font-weight: 600;
   color: ${props => props.theme.main.blackColor};
-`
+`;
+
+const Text = styled.p`
+  font-size: 24px;
+  font-weight: 400;
+  margin: 8px 0;
+  color: #535353;
+  max-width: 90%;
+`;
 
 export default {
-  Container
+  Container,
+  Title,
+  Text
 };

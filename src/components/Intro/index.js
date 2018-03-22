@@ -1,15 +1,17 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Title, Text } from './styles';
 
 const Intro = ({ text }) => (
   <Container>
-    {text}
+    <Title>Front-End Developer</Title>
+    <Text>I love UI/UX, building products and sharing knowledge.</Text>
+    <Text>Oh, and I care about accessibility. 👨‍🔧</Text>
   </Container>
 );
 
 Intro.defaultProps = {
-  text: "I’ve been crafting digital products using JavaScript technologies for the past four years."
+  text: ""
 };
 
 export default Intro;
