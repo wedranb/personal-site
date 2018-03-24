@@ -1,12 +1,9 @@
-# gatsby-starter-default
-The default Gatsby starter
+# [Personal website](https://www.vblazenka.com/)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+This website is created using awesome [GatsbyJS](gatsbyjs.org).
+CSS is powered with [Styled Components](http://styled-components.com/)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+*NOTE*: This site is work in progress for my future site. 
 
 ## Deploy
 
