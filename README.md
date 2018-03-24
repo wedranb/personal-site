@@ -1,4 +1,4 @@
-# [Personal website](vblazenka.com)
+# [Personal website](https://www.vblazenka.com/)
 
 This website is created using awesome [GatsbyJS](gatsbyjs.org).
 CSS is powered with [Styled Components](http://styled-components.com/)
