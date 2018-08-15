@@ -17,30 +17,8 @@ const IndexPage = ({ data }) => (
     <IntroContainer>
       <Intro />
     </IntroContainer>
-    <Shorcuts items={data.allMarkdownRemark.edges} />
   </Container>
 );
 
 export default IndexPage
 
-export const IndexPageQuery = graphql`
-query IndexPageQuery {
-  allMarkdownRemark (
-    sort: { order: DESC, fields: [frontmatter___date]}
-  ){
-    totalCount
-    edges {
-      node {
-        id
-        html
-        frontmatter {
-          date(formatString: "DD.MM.YYYY.")
-          title,
-          path,
-          type
-        }
-      }
-    }
-  }
-}
-`

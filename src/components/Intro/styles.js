@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
-const Container = styled.div``
+export const Container = styled.div`
+  text-align: center;
+`
 
-const Title = styled.h1`
+export const Title = styled.h1`
   margin-bottom: 24px;
   font-size: 72px;
   font-weight: 600;
   color: ${props => props.theme.main.blackColor};
 `;
 
-const Text = styled.p`
+export const Text = styled.p`
   font-size: 24px;
   font-weight: 400;
   margin: 8px 0;
@@ -17,8 +19,24 @@ const Text = styled.p`
   max-width: 90%;
 `;
 
-export default {
-  Container,
-  Title,
-  Text
-};
+export const Social = styled.ul`
+  margin: 0;
+  margin-top: 64px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Link = styled.li`
+`
+
+export const Item = styled.a`
+  padding: 7px 15px;
+  font-size: 24px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+`
+
+

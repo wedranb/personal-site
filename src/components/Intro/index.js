@@ -1,12 +1,21 @@
 import React from 'react';
 
-import { Container, Title, Text } from './styles';
+import { Container, Title, Text, Social, Link, Item } from './styles';
 
 const Intro = ({ text }) => (
   <Container>
     <Title>JavaScript Developer</Title>
-    <Text>I love UI/UX, building products and sharing knowledge.</Text>
-    <Text>Oh, and I care about accessibility. 👨‍🔧</Text>
+    <Social>
+      <Link>
+        <Item href="https://twitter.com/vblazenka" target="_blank">twitter</Item>
+      </Link>
+      <Link >
+        <Item href="https://www.linkedin.com/in/vblazenka" target="_blank">linkedin</Item>
+      </Link>
+      <Link>
+        <Item href="http://github.com/wedranb" target="_blank">github</Item>
+      </Link>
+    </Social>
   </Container>
 );
 
