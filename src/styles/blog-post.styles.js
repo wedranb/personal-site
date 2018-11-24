@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div`
   width: 100%;
   max-width: 690px;
 `;
 
-const Content = styled.section`
-  h1, h2, h3 {
-   margin: 0.2em 0;
+export const Content = styled.section`
+  h1,
+  h2,
+  h3 {
+    margin: 0.2em 0;
   }
 
   p + h1,
@@ -19,16 +21,11 @@ const Content = styled.section`
   p {
     font-size: 18px;
     line-height: 1.7;
-    color: #2E2E2E;
+    color: #2e2e2e;
   }
 
   a {
-    color: ${ props => props.theme.main.blogLinkColor };
+    color: ${props => props.theme.main.blogLinkColor};
     font-weight: 500;
   }
-`
-
-export default {
-  Container,
-  Content
-};
+`;

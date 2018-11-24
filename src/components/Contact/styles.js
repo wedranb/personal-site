@@ -1,11 +1,11 @@
-import Link from "gatsby-link";
+import Link from 'gatsby-link';
 import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div`
   text-align: center;
-`
+`;
 
-const Name = styled(Link)`
+export const Name = styled(Link)`
   display: block;
   margin: 0;
   margin-bottom: 5px;
@@ -14,21 +14,13 @@ const Name = styled(Link)`
   color: ${props => props.theme.main.blackColor};
 `;
 
-const Email = styled.a`
+export const Email = styled.a`
   font-size: 16px;
-  color: #9B9B9B;
+  color: #9b9b9b;
   text-decoration: none;
   color: ${props => props.theme.main.grayColor};
 `;
 
-
-const Emoji = styled.span`
+export const Emoji = styled.span`
   transition: all 0.2s ease;
 `;
-
-export default {
-  Container,
-  Name,
-  Email,
-  Emoji
-};
