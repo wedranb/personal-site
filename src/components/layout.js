@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { ThemeProvider } from 'styled-components';
 
 // Import components
-import Header from '../components/Header';
+import Header from './Header';
 
 // Import global styles
 import '../styles/normalize.css';
@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
         title="Vedran Blazenka - JavaScript Developer"
         meta={[
           { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: 'keywords', content: 'sample, something' }
         ]}
       />
       <Header />
@@ -29,17 +29,17 @@ const TemplateWrapper = ({ children }) => (
           margin: '0 auto',
           maxWidth: 960,
           padding: '0px 1.0875rem 1.45rem',
-          paddingTop: 0,
+          paddingTop: 0
         }}
       >
-        {children()}
+        {children}
       </div>
     </div>
   </ThemeProvider>
-)
+);
 
 TemplateWrapper.propTypes = {
-  children: PropTypes.func,
-}
+  children: PropTypes.object
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
