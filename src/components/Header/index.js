@@ -5,7 +5,7 @@ import Link from 'gatsby-link';
 import Contact from '../Contact';
 
 const Header = () => (
-  <div>
+  <div style={{ marginTop: '100px' }}>
     <Contact />
   </div>
 );
