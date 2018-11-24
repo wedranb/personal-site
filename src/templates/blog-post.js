@@ -1,10 +1,8 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 
 // Import styles
-import {
-  Container,
-  Content
-} from '../styles/blog-post.styles';
+import { Container, Content } from '../styles/blog-post.styles';
 
 export default ({ data }) => {
   const post = data.markdownRemark;

@@ -25,7 +25,7 @@ export const Content = styled.section`
   }
 
   a {
-    color: ${props => props.theme.main.blogLinkColor};
+    color: #29c566;
     font-weight: 500;
   }
 `;
