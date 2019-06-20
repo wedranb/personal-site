@@ -1,0 +1,11 @@
+{
+  "showThemeCredit": true,
+  "name": "Hi, I'm Vedran! 👋",
+  "shortDesc": "My full name is Vedran Blaženka and you should follow/contact me if you need help with open source project, work with me or you need mentoring.",
+  "url": "https://vblazenka.com",
+  "authorEmail": "blazenka.vedran@gmail.com",
+  "authorHandle": "@vblazenka",
+  "authorName": "Vedran Blazenka",
+  "enableThirdPartyComments": false,
+  "maxPostsPerPage": 5
+}

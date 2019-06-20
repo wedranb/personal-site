@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vblazenka",
+      "external": true
+    },
+    {
+      "text": "Github",
+      "url": "https://github.com/vblazenka",
+      "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/vblazenka",
+      "external": true
+    }
+  ]
+}

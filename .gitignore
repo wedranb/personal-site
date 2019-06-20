@@ -1,9 +1,17 @@
-# Project dependencies
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
-.cache/
-# Build directory
-public/
+*.log
+npm-debug.*
+*.scssc
+*.log
+*.swp
 .DS_Store
-yarn-error.log
-.idea/
+.sass-cache
+node_modules
+dist 
+
+# Specifics
+
+# Hide design tokens
+src/scss/_tokens.scss
+
+# Hide compiled CSS
+src/_includes/assets/*
