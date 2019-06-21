@@ -40,7 +40,7 @@ But when I started working, it forced me to talk with my colleagues and clients 
 Now I can't imagine who I was before and I would love to work more with people and I'm doing it every day. This post is also my way of trying to communicate with more people.
 
 ### Things worth checking out
-* [Post: Nobody knows what the hell they are doing](https://99u.adobe.com/articles/32985/nobody-knows-what-the-hell-they-are-doing) (I took a quote from them)
+* [Post: Nobody knows what the hell they are doing](https://99u.adobe.com/articles/32985/nobody-knows-what-the-hell-they-are-doing)
 * [Post: Confessions Of An Impostor](https://www.smashingmagazine.com/2017/10/confessions-impostor-syndrome/)
 * [Video: Why incompetent people think they're amazing](https://www.youtube.com/watch?v=pOLmD_WVY-E)
 * [List of tech meetups and conferences in Croatia](https://www.github.com/vblazenka/awesome-croatia)
