@@ -8,7 +8,7 @@ tags:
 
 ![Many people watching a projector while another person is giving a presentation](/images/jszgb-cover.jpg)
 
-Recently I came across a [post](https://www.linkedin.com/feed/update/urn:li:activity:6544860411970359296) from Antonio, CEO at Locastic, where he said he is writing a post about his experiences with public speaking. Him mentioning public speaking got my wheels turning, and I remembered my first time doing public speaking at a local programming meetup and how much it meant for me and where it got me.
+Recently I came across a [post](https://www.linkedin.com/feed/update/urn:li:activity:6544860411970359296) from Antonio where he said he is writing a post about his experiences with public speaking. Him mentioning public speaking got my wheels turning, and I remembered my first time doing public speaking at a local programming meetup and how much it meant for me and where it got me.
 
 My response was:
 > I did my first public speaking gig in 2016 in local meetup and it made a huge difference in my career because I got approached by a lot of cool people, expanded my network and got nice offers. Since then I had a few more similar gigs through which I learned how to communicate better, learned how to learn and teach more efficiently, better speaking skills which reflects on how I speak with managers and clients which results in better job positions. To this day it's always hard in stomach before a talk and I still do a lot of mistakes but the feeling after it is always worth coming back for.
@@ -28,9 +28,9 @@ Recently on our [JavaScript Zagreb #49](https://www.meetup.com/JavaScript-Zagreb
 Even if you are not speaking (you should try) being a part of community is a good feeling because you will meet new friends, learn new things, increase your empathy and stabilize your ego.
 Empathy is a capacity to understand and feel other person. There is no better way to grow your empathy skills than by surrounding yourself with other people and practice those skills.
 Ego is another big thing. We all know about how ego can stand in a way and make us feel bad or do the wrong things. Imagine being surrounded with a lot of smart people that can serve as a reference
-to where you are in your career or how much knowledge you have. These informations can help compare yourself with others and you can see in which way you need to go and which skills you need to improve.
+to where you are in your career or how much knowledge you have. These informations can help compare yourself with others and you can see in which direction you need to go and which skills you need to improve.
 
-> Next time you’re feeling apprehensive about your work, because others in your field seem more talented or confident, remember this: they only seem that way because you can’t see what they’re thinking.
+> Don't be afraid of others judging you based on your knowledge. Nobody knows everything. Nobody knows what they're doing. You probably know some things they don't! ;)
 
 ## Introverted?
 I was on this train before, but remember that the only way to beat something is to come face-to-face with it and win.
